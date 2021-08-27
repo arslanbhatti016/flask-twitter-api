@@ -10,7 +10,7 @@ from joblib import load
 from twitterAPImachine import get_related_tweets
 
 
-pipeline = load("text_classification_decisiontree.joblib")
+pipeline = load("https://github.com/arslanbhatti016/flask-twitter-api/blob/main/text_classification.joblib")
 
 
 def requestResults(name):
