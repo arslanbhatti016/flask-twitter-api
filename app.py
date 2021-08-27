@@ -10,7 +10,7 @@ from joblib import load
 from twitterAPImachine import get_related_tweets
 
 
-pipeline = load("https://github.com/arslanbhatti016/flask-twitter-api/blob/main/text_classification.joblib")
+pipeline = load("../main/text_classification.joblib")
 
 
 def requestResults(name):
@@ -22,7 +22,7 @@ def requestResults(name):
 
 
 
-app = Flask(__name__ , template_folder='https://github.com/arslanbhatti016/flask-twitter-api/tree/main/template')
+app = Flask(__name__ , template_folder='../main/template')
 @app.route('/')
 def home():
     return render_template('Home.html')
