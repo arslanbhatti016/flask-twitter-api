@@ -1,5 +1,5 @@
 Flask==1.1.1
-Python==3.9.6
+Python==-3.9.6
 joblib==0.14.1
 pandas==1.0.1
 Jinja2==2.11.1
