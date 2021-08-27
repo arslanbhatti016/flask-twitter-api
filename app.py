@@ -22,7 +22,7 @@ def requestResults(name):
 
 
 
-app = Flask(__name__ , template_folder='template')
+app = Flask(__name__ , template_folder='https://github.com/arslanbhatti016/flask-twitter-api/tree/main/template')
 @app.route('/')
 def home():
     return render_template('Home.html')
