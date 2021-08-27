@@ -22,7 +22,7 @@ def requestResults(name):
 
 
 
-app = Flask(__name__ , template_folder='C:/Users/IT City/AppData/Local/Programs/Python/AnaConda/anaconda3/Lib/site-packages/flask/template')
+app = Flask(__name__ , template_folder='template')
 @app.route('/')
 def home():
     return render_template('Home.html')
