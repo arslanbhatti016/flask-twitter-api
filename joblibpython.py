@@ -12,7 +12,7 @@ from joblib import load
 text = ["@user #cnn calls #michigan middle school 'build the wall' chant '' #tcot  "]
 
 # load the saved pipleine model
-pipeline = load("https://github.com/arslanbhatti016/flask-twitter-api/blob/main/text_classification.joblib")
+pipeline = load("../main/text_classification.joblib")
 
 # predict on the sample tweet text
 print(pipeline.predict(text))
