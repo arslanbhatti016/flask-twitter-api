@@ -13,7 +13,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.metrics import f1_score
 from sklearn.model_selection import train_test_split
 
-data = pd.read_csv('twitter_sentiments.csv')
+data = pd.read_csv('https://github.com/arslanbhatti016/flask-twitter-api/blob/main/twitter_sentiments.csv')
 # view the top rows
 data.head()
 # train test split
