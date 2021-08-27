@@ -73,4 +73,4 @@ print(pipeline.predict(text))
 from joblib import dump
 
 # dump the pipeline model
-dump(pipeline, filename="text_classification.joblib")
+dump(pipeline, filename="https://github.com/arslanbhatti016/flask-twitter-api/blob/main/joblibpython.py")
